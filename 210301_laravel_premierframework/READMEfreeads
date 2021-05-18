@@ -1,0 +1,18 @@
+README :
+
+L'idée de notre site étant d'être le plus sécurisé possible, la page d'accueil est une page très simple, avec un logo et une phrase accrocheuse, afin que le client s'inscrive et/ou se connecte pour accéder au contenu.
+Les boutons Log-in et Register se trouvent donc dans le coin supérieur droit. 
+Register : Le formulaire d'inscription est précédé du logo du site, qui est cliquable et permet de revenir à la page précédente, dans le formulaire se trouvent toutes les informations nécessaires à l'inscription, qui viennent incrémenter la BDD. A savoir qu'à la fin de ce formulaire d'inscription, un mail est généré automatiquement, dans lequel une validation est demandée. Si cette validation n'est pas effectuée, l'accès au site ne se fait pas.
+Login : L'email et le Password sont demandés, et il y a également la possibilité de rester enregistrer en cochant la case correspondante. Il y a également une section "Forgot your password ?" afin d'effectuer une réinitialisation de code secret par mail (fonctionnel).
+
+Une fois logé, l'utilisateur arrive sur la page Dashboard, qui est la page principale. On y trouve la barre de navigation, avec le nom de la page sur laquelle on se trouve, le logo cliquable, qui ramènera sur la dashboard si on est connecté, et dans le coin supérieur droit l'accès au profil user, et le bouton de déconnexion.
+Une barre de recherche permet d'afficher les annonces par mot clé, elle prend en compte toutes les caractéristiques possibles (catégorie, prix, description, location) et n'affiche que les annonces correspondantes à la recherche. Puis un menu de filtre par catégories, qui va afficher la catégorie cochée.
+En dessous de ça se trouvent les cards, chargées automatiquement via une boucle en fonction des informations saisies dans la BDD.
+Puis on trouve le footer, qui rappelle le nom du site, une devise, et les coordonnées. On y trouve également un formulaire de contact.
+
+Le menu Profil permet à l'utilisateur de consulter les informations de son profil, le nom, mail, numéro de téléphone, surnom, et il a la possibilité d'y modifier ses informations. Il y a également le possibilité de modifier le password, et, s'il le souhaite, un bouton afin de supprimer le compte.
+
+SEO :
+Au niveau de la SEO, deux points importants sont à prendre en compte.
+D'un côté, le référencement avec nos images, les titres permettent le référencement, et les balises Alt sont renseignées de sorte à favoriser le référencement grâce à des mots clés.
+D'un autre côté, le référencement peut également être favorisé grâce aux annonces postées sur le site, c'est pourquoi nous avons décidé de mettre une gestion de la balise Alt automatique sur chaque annonce postée, qui va récupérer le titre donné au produit.
